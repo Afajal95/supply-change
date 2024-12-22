@@ -1,0 +1,67 @@
+.date-range-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .calendars {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .date-button {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .date-button.weekend {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  
+  .date-button.selected {
+    background-color: lightblue;
+  }
+  
+  .predefined-ranges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .predefined-ranges button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
